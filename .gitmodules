@@ -1,0 +1,3 @@
+[submodule "src/JTNE.Protocol"]
+	path = src/JTNE.Protocol
+	url = https://github.com/SmallChi/JTNewEnergy.git
