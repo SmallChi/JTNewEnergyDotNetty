@@ -5,10 +5,15 @@
 参数说明:
 
 maxFrameLength：解码的帧的最大长度
+
 lengthFieldOffset：长度字段的偏差(长度属性的起始位（偏移位），包中存放有整个大数据包长度的字节，这段字节的其实位置)
+
 lengthFieldLength：长度字段占的字节数(即存放整个大数据包长度的字节所占的长度)
+
 lengthAdjustmen：添加到长度字段的补偿值(长度调节值，在总长被定义为包含包头长度时，修正信息长度)。
+
 initialBytesToStrip：从解码帧中第一次去除的字节数(跳过的字节数，根据需要我们跳过lengthFieldLength个字节，以便接收端直接接受到不含“长度属性”的内容)
+
 failFast ：为true，当frame长度超过maxFrameLength时立即报TooLongFrameException异常，为false，读取完整个帧再报异常
 
 ### JTNE协议处理
