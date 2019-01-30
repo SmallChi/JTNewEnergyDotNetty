@@ -9,13 +9,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JTNE.Protocol", "JTNE.Proto
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JTNE.DotNetty.Core", "JTNE.DotNetty.Core\JTNE.DotNetty.Core.csproj", "{045A407E-8D6B-4EDE-87F9-AD3E2531E978}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JTNE.DotNetty.Tcp", "JTNE.DotNetty.Tcp\JTNE.DotNetty.Tcp.csproj", "{2AD8F740-5468-4BF7-B37F-D98F061B9939}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JTNE.DotNetty.Tcp", "JTNE.DotNetty.Tcp\JTNE.DotNetty.Tcp.csproj", "{2AD8F740-5468-4BF7-B37F-D98F061B9939}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{8241ED6E-2BF2-4378-AC97-466A1CA6032C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JTNE.DotNetty.Tcp.Test", "JTNE.DotNetty.Tests\JTNE.DotNetty.Tcp.Test\JTNE.DotNetty.Tcp.Test.csproj", "{298C5650-2DAC-40E2-9309-12A8651E0347}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JTNE.DotNetty.Tcp.Test", "JTNE.DotNetty.Tests\JTNE.DotNetty.Tcp.Test\JTNE.DotNetty.Tcp.Test.csproj", "{298C5650-2DAC-40E2-9309-12A8651E0347}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JTNE.DotNetty.Hosting", "JTNE.DotNetty.Tests\JTNE.DotNetty.Hosting\JTNE.DotNetty.Hosting.csproj", "{5BA5FC40-8A66-439F-B5C6-209E754488D9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JTNE.DotNetty.Hosting", "JTNE.DotNetty.Tests\JTNE.DotNetty.Hosting\JTNE.DotNetty.Hosting.csproj", "{5BA5FC40-8A66-439F-B5C6-209E754488D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JTNE.DotNetty.Abstractions", "JTNE.DotNetty.Abstractions\JTNE.DotNetty.Abstractions.csproj", "{CF3948ED-BF18-44C6-B86C-0EE1DCC86D25}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -43,6 +45,10 @@ Global
 		{5BA5FC40-8A66-439F-B5C6-209E754488D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5BA5FC40-8A66-439F-B5C6-209E754488D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5BA5FC40-8A66-439F-B5C6-209E754488D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF3948ED-BF18-44C6-B86C-0EE1DCC86D25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF3948ED-BF18-44C6-B86C-0EE1DCC86D25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF3948ED-BF18-44C6-B86C-0EE1DCC86D25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF3948ED-BF18-44C6-B86C-0EE1DCC86D25}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
