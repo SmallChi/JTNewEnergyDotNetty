@@ -18,7 +18,7 @@ failFast ：为true，当frame长度超过maxFrameLength时立即报TooLongFrame
 
 ### JTNE协议处理
 
-22 JTNEPackage数据体长度
+22 JTNEPackage数据体长度所在的位置
 
 2  JTNEPackage数据体长度占两个字节
 
